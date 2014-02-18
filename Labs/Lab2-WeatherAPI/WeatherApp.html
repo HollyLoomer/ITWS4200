@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="WeatherApp.css">  
+	    <title>Lab 2 WeatherApp</title>
+	</head>
+	<body>
+		<h1>Lab 2 WeatherApp</h1>
+		<h2>Weather in <span id="location"></span></h2>
+		<div id="weatherNow">
+			<div id="middleColumnA">
+				<div id="crtTemp">
+				</div>
+				<div id="rightMisc">
+				</div>
+				<div class="summary">
+				</div>
+			</div>
+		</div>
+		<h2>Tomorrow's Weather</h2>
+		<div id="weatherTmrw">
+			<div id="middleColumnB">
+				<div id="precip">
+				</div>
+				<div id="tempTmrw">
+					<div id="iconTmrw"></div>
+					<div id="highTemp"></div>
+					<div id="lowTemp"></div>
+				</div>
+				<div class="summary2">
+				</div>
+			</div>
+		</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+	<!-- reverse geocoding script -->
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script type="text/javascript" src="parsingweatherdata.js"></script>
+	</body>
+</html>

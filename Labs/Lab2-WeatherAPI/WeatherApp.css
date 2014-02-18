@@ -1,0 +1,142 @@
+body {
+	width: 800px;
+	margin: 10px auto 10px;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	background-color: #BFEFFF;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 0 0 10px 0 ;
+    font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+    text-shadow: 2px 3px 3px #292929;
+    letter-spacing: -5px;
+    -webkit-text-stroke: 1px white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 10px;
+    font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;
+    text-shadow: 2px 3px 3px #292929;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px white;
+}
+
+.degrees {
+	font-size: 130%;
+}
+
+#weatherNow {
+	margin: 0 auto 0;
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	/*gradient borders credited in readme*/
+	border-width:3px;
+    -webkit-border-image: 
+    -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+    -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+   	-o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+    -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+#middleColumnA{
+	padding-left: 35px;
+	text-align: center;
+	width: 350px;
+	height: 140px;
+}
+
+/*first column*/
+#crtTemp {
+	float: left;
+	font-size: 120%;
+	text-align: center;
+	width: 80px;
+	padding: 10px;
+}
+
+/*middle column*/
+#rightMisc {
+	padding: 0px 10px 0 10px;
+	width: 100px;
+	height: 140px;
+	float: left;
+	font-size: 90%;
+	text-align: center;
+}
+
+/*last column*/
+.summary {
+	float:left;
+	padding: 10px;
+	width: 100px;
+	height: 120px;
+	font-size: 90%;
+}
+
+#weatherTmrw {
+	margin: 0 auto 0;
+	width: 400px;
+	height: 150px;
+	background-color: white;
+	/*gradient borders credited in readme*/
+	border-width:3px;
+    -webkit-border-image: 
+    -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+    -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+   	-o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+    -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%; 
+}
+
+#middleColumnB {
+	padding-left: 35px;
+	text-align: center;
+	width: 360px;
+	height: 150px;
+}
+
+/*first column*/
+#precip {
+	float: left;
+	width: 100px;
+	padding: 40px 10px 10px 0;
+}
+
+/*next column*/
+#tempTmrw {
+	float: left;
+	width: 100px;
+	height: 140px;
+	padding: 0px 10px 0 0;
+}
+#highTemp {
+	padding: 0 0 0 20px ;
+	float: left;
+	font-size: 150%;
+}
+#lowTemp {
+	float: left;
+	font-size: 120%;
+	padding: 20px 0 0 0;
+
+}
+
+/*last column*/
+.summary2 {
+	float:left;
+	padding: 10px;
+	width: 100px;
+	height: 120px;
+	font-size: 90%;
+}
+
