@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
 	$.ajax({
 		type: "GET",
-		url: "tweets-clean.json",
+		url: "ITWS4200-lab5-loomeh.json",
 		dataType: "json",
 		success: function(responseData, status) {
 
