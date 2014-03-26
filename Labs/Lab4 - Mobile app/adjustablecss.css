@@ -1,0 +1,169 @@
+/*RESPONSIVE GRID SYSTEM*/
+/*==============================================================*/
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+.group:after {
+  clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+                                               
+          
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%;
+}
+.span_3_of_4 {
+  width: 73.75%;
+}
+.span_2_of_4 {
+  width: 47.5%;
+}
+.span_1_of_4 {
+  width: 21.25%;
+}
+/*==============================================================*/
+
+/*FULL SIZE (w/o mobile considerations) */
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  padding-left: .5em;
+  padding-right: .5em;
+  background-image: url("wwf-logo.png");
+  background-size: cover;
+}
+
+content {
+  font-family:'Nobile', sans-serif;
+  font-size: 90%;
+}
+
+/*individual columns*/
+.span_1_of_4 {
+  border: solid 2px black;
+  padding: 5px;
+  background-color: white;
+}
+
+/*heading*/
+.span_1_of_3 {
+  width: 32.26%; 
+  border: solid 2px black;
+
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  background-color: white;
+}
+
+/*sub heading*/
+.span_2_of_3 {
+  padding: .65em 0 .65em 0;
+  width: 57%; 
+  border: solid 2px black;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  background-color: white;
+
+}
+
+
+
+/*ITEMS INSIDE COLUMNS*/
+.postLink {
+  font-size: 70%;
+  float: right;
+
+}
+
+.message a {
+  font-size: 80%;
+}
+
+.createdOn {
+  padding-top: .5em;
+  font-size: 70%;
+ 
+}
+img {
+  max-width: 100%; /* Add !important if needed. */
+  height: auto;    /* Add !important if needed. */
+  padding-right: .5em;
+  float: left;
+}
+
+
+/*BREAKPOINT 1*/
+@media only screen and (max-width: 1160px) {
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: .5em;
+
+  }
+  /*font size shift*/
+  content {
+    font-size: 70%;
+    /*text-align: center;*/
+  }
+
+}
+
+/*BREAKPOINT 2*/
+@media only screen and (max-width: 600px) {
+  .col { 
+    margin: 1% 0 1% 0%;
+  }
+  .span_4_of_4 {
+    width: 100%; 
+  }
+  .span_3_of_4 {
+    width: 100%; 
+  }
+  .span_2_of_4 {
+    width: 100%; 
+  }
+  .span_1_of_4 {
+    width: 100%;
+  }
+
+  content {
+    text-align: left;
+  }
+
+  /*headers*/
+  .span_2_of_3 {
+    width: 100%; 
+  }
+  .span_1_of_3 {
+    width: 100%;
+  }
+
+  
+}
