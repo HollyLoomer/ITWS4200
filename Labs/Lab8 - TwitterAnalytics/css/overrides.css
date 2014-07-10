@@ -1,0 +1,117 @@
+#ticker {
+	height: 290px;
+	width: 500px;
+	overflow: hidden;
+}
+
+#tickerlist {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tweet {
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 0;
+	background-color: #47D1FF;
+	border-radius: 10px;
+	font-size: 70%;
+	height: 90px;
+}
+
+.username {
+	padding-left: 10px;
+	text-align: center;
+	float: left;
+	clear: left;
+}
+
+.tweet .profpic {
+	padding: 5px 10px 5px 10px;
+	width: 50px;
+	height: 50px;
+	float: left;
+	clear: left;
+}
+
+.text {
+	float: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 400px;
+}
+
+.center1 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.center2 {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+#hashtags {
+	padding: 0 0 0 10px;
+	height: 280px;
+	width: 300px;
+	float: left;
+	overflow-y: hidden;
+}
+
+#hashtaglist {
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.tag {
+	text-align: center;
+	margin: 5px 0 5px 0;
+	padding: 5px 0 5px 50;
+	border-radius: 10px;
+	font-size: 1.5em;
+}
+
+#chart1 {
+	margin-left: 10px;
+	float: left;
+	width: 300px;
+}
+
+#legend {
+	float: left;
+	list-style-type: none;
+}
+.legendItem {
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.legendLI {
+	margin-bottom: 3px;
+}
+#replies {
+	background-color: #00CDEF;
+}
+#origtweets {
+	background-color: #C2F30D;
+}
+
+#chart2 {
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+#chart3 {
+	float: left;
+	margin-left: 10px;
+}
+#chart3 h4 {
+	text-align: center;
+}

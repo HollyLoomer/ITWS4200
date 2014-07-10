@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Analytics</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/overrides.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+
+	<!--google pie chart-->
+ 	<!--<script type="text/javascript" src="https://www.google.com/jsapi"></script>-->
+	<!-- jquery scripts -->
+	<script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+	<script src="js/Chart.js"></script>
+ 	<!--javascript link-->
+	<script src="js/otherjs.js"></script>
+	<!--bootstrap js-->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="container">
+			<div class="row">
+			<div class="text-center">
+				<h1>Twitter Analytics</h1>
+				<!-- <p>Press 'Again' to load more tweets into database.</p> -->
+				<button type="button" class="btn btn-default" id="startButton">Present Analytics</button>
+				<!-- <button type="button" class="btn btn-default" id="againButton">Again</button> -->
+			</div>
+			</div>
+	</div>
+	</br>
+ 	<div class="container">
+ 		<div class="row">
+	 		<div class="col-md-6">
+	 			<div class="center1">
+					<div id="ticker"> 
+						<ul id="tickerlist">
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="center2">
+					<div id="hashtags">
+						<ul id="hashtaglist">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="container">
+			<div id="chart1">
+			<h4>Tweet Replies vs Original Tweets</h4>
+				<canvas id="myChart" width="260" height="200"></canvas>
+				<ul id="legend">
+					<li class="legendLI"><div class="legendItem row" id="replies"></div>Replies</li>
+					<li class="legendLI"><div class="legendItem row" id="origtweets"></div>Originals</li>
+				</ul>
+			</div>
+
+			<div id="chart2">
+				<h4>Follower Count Ranges: 0 to 10,000+</h4>
+				<canvas id="lineChart" width="360" height="300"></canvas>
+			</div>
+
+			<div id="chart3">
+				<h4>Languages of Twitter</h4>
+				<canvas id="barChart"  width="400" height="340"></canvas>
+			</div>
+		</div>
+
+</body>
+</html>

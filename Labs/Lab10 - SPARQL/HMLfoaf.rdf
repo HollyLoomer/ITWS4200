@@ -1,0 +1,32 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Holly Loomer</foaf:name>
+<foaf:title>Miss</foaf:title>
+<foaf:givenname>Holly</foaf:givenname>
+<foaf:family_name>Loomer</foaf:family_name>
+<foaf:nick>Lolly</foaf:nick>
+<foaf:mbox_sha1sum>44095f57768c003c38e2125ff2e51c6b49ca8671</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="https://www.facebook.com/hollyloomer"/>
+<foaf:depiction rdf:resource="https://scontent-b-sea.xx.fbcdn.net/hphotos-frc3/t1.0-9/1175137_10151830499596800_852811645_n.jpg"/>
+<foaf:phone rdf:resource="tel:8605329745"/>
+<foaf:workplaceHomepage rdf:resource="xlgroup.com"/>
+<foaf:schoolHomepage rdf:resource="www.rpi.edu"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Candice Poon</foaf:name>
+<foaf:mbox_sha1sum>510ae120c14ce5bddc0a93747a026f5e41daaa04</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Madi Vastare</foaf:name>
+<foaf:mbox_sha1sum>25619cc236621265b5c4376c2f7d47b42fa00fa0</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
